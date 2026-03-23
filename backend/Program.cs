@@ -2,10 +2,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReact",
+    options.AddPolicy("AllowAll",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3001")
+            policy.AllowAnyOrigin()
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
@@ -13,15 +13,11 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseCors("AllowReact");
-
+app.UseCors("AllowAll");
 
 app.MapGet("/api/message/{count}", (int count) =>
 {
-    return new
-    {
-        message = $"You clicked {count} times 👍"
-    };
+    return new { message = $"You clicked {count} times 👍" };
 });
 
 app.Run();

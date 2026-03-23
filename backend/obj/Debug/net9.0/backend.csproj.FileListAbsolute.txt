@@ -16,6 +16,7 @@ D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.AssemblyInfo.cs
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.csproj.CoreCompileInputs.cache
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cs
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cache
+D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.sourcelink.json
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
