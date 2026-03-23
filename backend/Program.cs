@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 
 
 builder.Services.AddCors(options =>
@@ -22,4 +23,6 @@ app.MapGet("/api/message/{count}", (int count) =>
     return new { message = $"You clicked {count} times 👍" };
 });
 
-app.Run($"http://0.0.0.0:{port}");
+app.Urls.Add($"http://*:{port}");
+
+app.Run();
