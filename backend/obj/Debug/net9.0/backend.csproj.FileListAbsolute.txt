@@ -31,3 +31,4 @@ D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\refint\backend.dll
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.pdb
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 D:\LEARNING\Practice\Hosting\backend\obj\Debug\net9.0\ref\backend.dll
+D:\LEARNING\Practice\Hosting\backend\bin\Debug\net9.0\railway.json
